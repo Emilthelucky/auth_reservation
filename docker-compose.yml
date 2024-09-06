@@ -6,12 +6,12 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "5000:5000"
+      - "8080:8080"
     environment:
       NODE_ENV: production
       MONGO_URL: ${MONGO_URL}
       JWT_SECRET_KEY: ${JWT_SECRET_KEY}
-      REDIS_HOST: redis-11492.c267.us-east-1-4.ec2.redns.redis-cloud.com
+      REDIS_HOST: ${REDIS_HOST}
       REDIS_PORT: ${REDIS_PORT}
       REDIS_USER: ${REDIS_USER}
       REDIS_PASSWORD: ${REDIS_PASSWORD}
