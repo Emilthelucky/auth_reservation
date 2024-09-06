@@ -1,0 +1,131 @@
+[05-09-2024 (16:28)] [34minfo[39m: Register attempt: {"username":"emil5","email":"asifadisirinov5@gmail.com","password":"emil321456","role":"user"}
+[05-09-2024 (16:42)] [34minfo[39m: Register attempt: {"username":"emil","email":"asifadisirinov@gmail.com","password":"emil12345","role":"admin"}
+[05-09-2024 (16:42)] [34minfo[39m: User registered successfully: emil
+[05-09-2024 (16:42)] [31merror[39m: Login failed: Incorrect password for email asifadisirinov@gmail.com
+[05-09-2024 (16:43)] [34minfo[39m: User logged in successfully: emil
+[05-09-2024 (16:45)] [34minfo[39m: Reservation created successfully for user 66d9a72e65c4b35e7861ee4a at venue 66d9a7c365c4b35e7861ee4e
+[05-09-2024 (16:46)] [34minfo[39m: Retrieved reservations for user 66d9a72e65c4b35e7861ee4a
+[05-09-2024 (16:46)] [31merror[39m: Get reservation details failed: Forbidden access to reservation ID 66d9a7e565c4b35e7861ee53 by user 66d969469d262c81bbd784f4
+[05-09-2024 (16:46)] [34minfo[39m: Reservation details retrieved successfully for ID 66d9a7e565c4b35e7861ee53
+[05-09-2024 (16:47)] [34minfo[39m: Reservation deleted successfully for ID 66d9a7e565c4b35e7861ee53
+[05-09-2024 (16:53)] [34minfo[39m: Creating venue by user undefined
+[05-09-2024 (16:53)] [34minfo[39m: Venue created successfully: 66d9a9ca2117cbe0070836e2
+[05-09-2024 (16:54)] [34minfo[39m: Creating venue by user 66d9a72e65c4b35e7861ee4a
+[05-09-2024 (16:54)] [34minfo[39m: Venue created successfully: 66d9aa11d5fba32b0f932f25
+[05-09-2024 (17:43)] [34minfo[39m: Register attempt: {"username":"testuser","email":"test@example.com","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (17:43)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (17:43)] [34minfo[39m: Register attempt: {"username":"testuser","email":"invalid-email","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (17:43)] [31merror[39m: Registration failed: Invalid email invalid-email
+[05-09-2024 (17:43)] [34minfo[39m: User logged in successfully: testuser
+[05-09-2024 (17:43)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[05-09-2024 (17:43)] [34minfo[39m: Fetched all users: 2 users found
+[05-09-2024 (17:43)] [31merror[39m: Failed to fetch users: Database error
+[05-09-2024 (17:50)] [34minfo[39m: Register attempt: {"username":"testuser","email":"test@example.com","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (17:50)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (17:50)] [34minfo[39m: Register attempt: {"username":"testuser","email":"invalid-email","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (17:50)] [31merror[39m: Registration failed: Invalid email invalid-email
+[05-09-2024 (17:50)] [34minfo[39m: Register attempt: {"email":"test@example.com"}
+[05-09-2024 (17:50)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (17:50)] [34minfo[39m: User logged in successfully: testuser
+[05-09-2024 (17:50)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[05-09-2024 (17:50)] [34minfo[39m: Fetched all users: 2 users found
+[05-09-2024 (17:50)] [31merror[39m: Failed to fetch users: Database error
+[05-09-2024 (17:52)] [34minfo[39m: Register attempt: {"username":"testuser","email":"test@example.com","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (17:52)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (17:52)] [34minfo[39m: Register attempt: {"username":"testuser","email":"invalid-email","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (17:52)] [31merror[39m: Registration failed: Invalid email invalid-email
+[05-09-2024 (17:52)] [34minfo[39m: Register attempt: {"email":"test@example.com"}
+[05-09-2024 (17:52)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (17:52)] [34minfo[39m: User logged in successfully: testuser
+[05-09-2024 (17:52)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[05-09-2024 (17:52)] [34minfo[39m: Fetched all users: 2 users found
+[05-09-2024 (17:52)] [31merror[39m: Failed to fetch users: Database error
+[05-09-2024 (17:53)] [34minfo[39m: Register attempt: {"username":"testuser","email":"test@example.com","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (17:53)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (17:53)] [34minfo[39m: Register attempt: {"username":"testuser","email":"invalid-email","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (17:53)] [31merror[39m: Registration failed: Invalid email invalid-email
+[05-09-2024 (17:53)] [34minfo[39m: Register attempt: {"email":"test@example.com"}
+[05-09-2024 (17:53)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (17:53)] [34minfo[39m: User logged in successfully: testuser
+[05-09-2024 (17:53)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[05-09-2024 (17:53)] [34minfo[39m: Fetched all users: 2 users found
+[05-09-2024 (17:53)] [31merror[39m: Failed to fetch users: Database error
+[05-09-2024 (17:57)] [34minfo[39m: Register attempt: {"username":"testuser","email":"test@example.com","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (17:57)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (17:57)] [34minfo[39m: Register attempt: {"username":"testuser","email":"invalid-email","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (17:57)] [31merror[39m: Registration failed: Invalid email invalid-email
+[05-09-2024 (17:57)] [34minfo[39m: Register attempt: {"username":"testuser","email":"test@example.com","password":"123","role":"user"}
+[05-09-2024 (17:57)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (17:57)] [34minfo[39m: Register attempt: {"email":"test@example.com"}
+[05-09-2024 (17:57)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (17:57)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[05-09-2024 (17:57)] [31merror[39m: Login failed: Incorrect password for email test@example.com
+[05-09-2024 (17:57)] [34minfo[39m: User logged in successfully: undefined
+[05-09-2024 (17:57)] [34minfo[39m: Fetched all users: 1 users found
+[05-09-2024 (17:57)] [31merror[39m: Failed to fetch users: Database error
+[05-09-2024 (17:57)] [34minfo[39m: Register attempt: {"username":"testuser","email":"test@example.com","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (17:57)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (17:57)] [34minfo[39m: Register attempt: {"username":"testuser","email":"invalid-email","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (17:57)] [31merror[39m: Registration failed: Invalid email invalid-email
+[05-09-2024 (17:57)] [34minfo[39m: Register attempt: {"email":"test@example.com"}
+[05-09-2024 (17:57)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (17:57)] [34minfo[39m: User logged in successfully: testuser
+[05-09-2024 (17:57)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[05-09-2024 (17:57)] [34minfo[39m: Fetched all users: 2 users found
+[05-09-2024 (17:57)] [31merror[39m: Failed to fetch users: Database error
+[05-09-2024 (18:05)] [34minfo[39m: Register attempt: {"username":"testuser","email":"test@example.com","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (18:05)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (18:05)] [34minfo[39m: Register attempt: {"username":"testuser","email":"invalid-email","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (18:05)] [31merror[39m: Registration failed: Invalid email invalid-email
+[05-09-2024 (18:05)] [34minfo[39m: Register attempt: {"username":"testuser","email":"test@example.com","password":"123","role":"user"}
+[05-09-2024 (18:05)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (18:05)] [34minfo[39m: Register attempt: {"email":"test@example.com"}
+[05-09-2024 (18:05)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (18:05)] [34minfo[39m: User logged in successfully: testuser
+[05-09-2024 (18:05)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[05-09-2024 (18:05)] [31merror[39m: Login failed: Incorrect password for email test@example.com
+[05-09-2024 (18:05)] [34minfo[39m: Fetched all users: 2 users found
+[05-09-2024 (18:05)] [31merror[39m: Failed to fetch users: Database error
+[05-09-2024 (18:07)] [34minfo[39m: Register attempt: {"username":"testuser","email":"test@example.com","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (18:07)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (18:07)] [34minfo[39m: Register attempt: {"username":"testuser","email":"test@example.com","password":"123","role":"user"}
+[05-09-2024 (18:07)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (18:07)] [34minfo[39m: Register attempt: {"username":"testuser","email":"invalid-email","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (18:07)] [31merror[39m: Registration failed: Invalid email invalid-email
+[05-09-2024 (18:07)] [34minfo[39m: Register attempt: {"email":"test@example.com"}
+[05-09-2024 (18:07)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (18:07)] [34minfo[39m: User logged in successfully: undefined
+[05-09-2024 (18:07)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[05-09-2024 (18:07)] [31merror[39m: Login failed: Incorrect password for email test@example.com
+[05-09-2024 (18:07)] [34minfo[39m: Fetched all users: 2 users found
+[05-09-2024 (18:07)] [31merror[39m: Failed to fetch users: Database error
+[05-09-2024 (18:07)] [34minfo[39m: Register attempt: {"username":"testuser","email":"test@example.com","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (18:07)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (18:07)] [34minfo[39m: Register attempt: {"username":"testuser","email":"invalid-email","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (18:07)] [31merror[39m: Registration failed: Invalid email invalid-email
+[05-09-2024 (18:07)] [34minfo[39m: Register attempt: {"email":"test@example.com"}
+[05-09-2024 (18:07)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (18:07)] [34minfo[39m: User logged in successfully: testuser
+[05-09-2024 (18:07)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[05-09-2024 (18:07)] [34minfo[39m: Fetched all users: 2 users found
+[05-09-2024 (18:07)] [31merror[39m: Failed to fetch users: Database error
+[05-09-2024 (18:13)] [34minfo[39m: Register attempt: {"username":"testuser","email":"test@example.com","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (18:13)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (18:13)] [34minfo[39m: Register attempt: {"username":"testuser","email":"invalid-email","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (18:13)] [31merror[39m: Registration failed: Invalid email invalid-email
+[05-09-2024 (18:13)] [34minfo[39m: Register attempt: {"email":"test@example.com"}
+[05-09-2024 (18:13)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (18:13)] [34minfo[39m: User logged in successfully: testuser
+[05-09-2024 (18:13)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[05-09-2024 (18:13)] [34minfo[39m: Fetched all users: 2 users found
+[05-09-2024 (18:13)] [31merror[39m: Failed to fetch users: Database error
+[05-09-2024 (18:20)] [34minfo[39m: Register attempt: {"username":"testuser","email":"test@example.com","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (18:20)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (18:20)] [34minfo[39m: Register attempt: {"username":"testuser","email":"invalid-email","password":"StrongPassword123!","role":"user"}
+[05-09-2024 (18:20)] [31merror[39m: Registration failed: Invalid email invalid-email
+[05-09-2024 (18:20)] [34minfo[39m: Register attempt: {"email":"test@example.com"}
+[05-09-2024 (18:20)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[05-09-2024 (18:21)] [34minfo[39m: User logged in successfully: testuser
+[05-09-2024 (18:21)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[05-09-2024 (18:21)] [34minfo[39m: Fetched all users: 2 users found
+[05-09-2024 (18:21)] [31merror[39m: Failed to fetch users: Database error
