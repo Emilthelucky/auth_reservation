@@ -66,10 +66,12 @@ This project includes the following services:
 - The app runs on port `8080`.
 
 ## Usage 📖
-POSTMAN URL: https://documenter.getpostman.com/view/31067502/2sAXjRUp3m
 
 - Run `docker-compose up` to start the application.
 - Access the API and make reservations or manage users through the authentication system.
 
 ## Environment Variables 🌍
 Make sure to set the following environment variables in your `.env` file  you can see example env file in .env.example:
+
+## Postman URL
+https://documenter.getpostman.com/view/31067502/2sAXjRUp3m
