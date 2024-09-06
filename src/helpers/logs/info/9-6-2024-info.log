@@ -1,2 +1,11 @@
 [06-09-2024 (11:30)] [34minfo[39m: Register attempt: {"username":"emil22","email":"asifadisirinov22@gmail.com","password":"emil12345","role":"user"}
 [06-09-2024 (11:30)] [34minfo[39m: User registered successfully: emil22
+[06-09-2024 (12:29)] [34minfo[39m: Register attempt: {"username":"emil","email":"asifadisirinov2232324@gmail.com","password":"emil12345","role":"user"}
+[06-09-2024 (12:29)] [31merror[39m: Registration failed: Username already exists emil
+[06-09-2024 (12:29)] [34minfo[39m: Register attempt: {"username":"emil","email":"asifadisirinov2232324@gmail.com","password":"emil12345","role":"user"}
+[06-09-2024 (12:29)] [31merror[39m: Registration failed: Username already exists emil
+[06-09-2024 (12:29)] [34minfo[39m: Register attempt: {"username":"emil","email":"asifadisirinov@gmail.com","password":"emil12345","role":"user"}
+[06-09-2024 (12:29)] [31merror[39m: Registration failed: Email already exists asifadisirinov@gmail.com
+[06-09-2024 (12:30)] [31merror[39m: Login failed: User not found for email asifadisirinov99@gmail.com
+[06-09-2024 (12:31)] [31merror[39m: Login failed: User not found for email asifadisirinov99@gmail.com
+[06-09-2024 (13:38)] [31merror[39m: Login failed: User not found for email asifadisirinov99@gmail.com
