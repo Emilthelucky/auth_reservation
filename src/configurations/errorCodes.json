@@ -82,11 +82,11 @@
                 "message": "Authorization header is missing!"
             },
             "INVALID_AUTHORIZATION_ERROR": {
-                "statusCode": 403,
+                "statusCode": 401,
                 "message": "Invalid authorization token!"
             },
             "FORBIDDEN_ERROR": {
-                "statusCode": 403,
+                "statusCode": 401,
                 "message": "You do not have permission to access this resource!"
             },
             "EXPIRED_AUTHORIZATION_ERROR": {

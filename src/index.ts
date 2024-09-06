@@ -9,7 +9,7 @@ import { Request, Response } from "express"
 
 config()
 
-const app = express()
+export const app = express()
 const PORT = process.env.PORT || 8080
 const MONGO_URL = process.env.MONGO_URL
 

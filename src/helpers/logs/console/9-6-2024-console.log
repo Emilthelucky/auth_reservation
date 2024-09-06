@@ -28,3 +28,193 @@
 [06-09-2024 (14:25)] [31merror[39m: Login failed: Missing fields for email test@example.com
 [06-09-2024 (14:25)] [34minfo[39m: Fetched all users: 2 users found
 [06-09-2024 (14:25)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (14:46)] [34minfo[39m: Register attempt: {"username":"testuser","email":"test@example.com","password":"StrongPassword123!","role":"user"}
+[06-09-2024 (14:46)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[06-09-2024 (14:46)] [34minfo[39m: Register attempt: {"username":"testuser","email":"invalid-email","password":"StrongPassword123!","role":"user"}
+[06-09-2024 (14:46)] [31merror[39m: Registration failed: Invalid email invalid-email
+[06-09-2024 (14:46)] [34minfo[39m: Register attempt: {"email":"test@example.com"}
+[06-09-2024 (14:46)] [31merror[39m: Registration failed: Weak password for email test@example.com
+[06-09-2024 (14:46)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (14:46)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (14:46)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (14:46)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (14:53)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (14:53)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (14:53)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (14:53)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (14:54)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (14:54)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (14:54)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (14:54)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (14:55)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (14:55)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (14:55)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (14:55)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (14:55)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (14:55)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (14:55)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (14:55)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (14:56)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (14:56)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (14:56)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (14:56)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (14:57)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (14:57)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (14:57)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (14:57)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (14:57)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (14:57)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (14:57)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (14:57)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (14:58)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (14:58)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (14:58)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (14:58)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (14:58)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (14:58)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (14:58)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (14:58)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (14:59)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (14:59)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (14:59)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (14:59)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (14:59)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (14:59)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (14:59)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (14:59)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (14:59)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (14:59)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (14:59)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (14:59)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:00)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:00)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:00)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:00)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:00)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:00)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:00)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:00)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:00)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:00)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:00)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:00)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:01)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:01)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:01)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:01)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:02)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:02)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:02)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:02)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:03)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:03)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:03)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:03)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:03)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:03)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:03)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:03)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:04)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:04)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:04)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:04)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:04)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:04)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:04)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:04)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:05)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:05)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:05)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:05)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:06)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:06)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:06)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:06)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:07)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:07)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:07)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:07)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:08)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:08)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:08)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:08)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:09)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:09)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:09)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:09)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:11)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:11)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:11)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:11)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:11)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:11)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:11)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:11)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:11)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:11)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:11)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:11)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:12)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:12)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:12)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:12)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:12)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:12)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:12)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:12)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:12)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:12)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:12)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:12)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:12)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:12)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:12)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:12)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:13)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:13)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:13)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:13)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:13)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:13)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:13)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:13)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:17)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:17)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:17)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:17)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:18)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:18)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:18)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:18)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:18)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:18)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:18)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:18)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:18)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:18)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:18)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:18)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:22)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:22)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:22)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:22)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:29)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:29)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:29)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:29)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (15:59)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (15:59)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (15:59)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (15:59)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (16:03)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (16:03)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (16:03)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (16:03)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (16:05)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (16:05)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (16:05)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (16:05)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (16:06)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (16:06)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (16:06)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (16:06)] [31merror[39m: Failed to fetch users: Database error
