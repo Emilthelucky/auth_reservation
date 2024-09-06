@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-     "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
     "baseUrl": "src",
     "outDir": "dist",
     "sourceMap": true,
@@ -10,6 +10,6 @@
     "resolveJsonModule": true,
     "typeRoots": ["./node_modules/@types", "./src/types"]
   },
-  "include": ["src/**/*", "__tests__"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
