@@ -14,3 +14,13 @@
 [06-09-2024 (13:41)] [31merror[39m: Login failed: User not found for email asifadisirinov99@gmail.com
 [06-09-2024 (13:43)] [31merror[39m: Login failed: User not found for email asifadisirinov99@gmail.com
 [06-09-2024 (09:46)] [31merror[39m: Login failed: User not found for email asifadisirinov99@gmail.com
+[06-09-2024 (13:58)] [31merror[39m: Login failed: User not found for email asifadisirinov99@gmail.com
+[06-09-2024 (14:04)] [34minfo[39m: User logged in successfully: testuser
+[06-09-2024 (14:04)] [31merror[39m: Login failed: Missing fields for email test@example.com
+[06-09-2024 (14:04)] [34minfo[39m: Fetched all users: 2 users found
+[06-09-2024 (14:04)] [31merror[39m: Failed to fetch users: Database error
+[06-09-2024 (14:07)] [31merror[39m: Login failed: User not found for email asifadisirinov99@gmail.com
+[06-09-2024 (14:12)] [31merror[39m: Login failed: User not found for email asifadisirinov99@gmail.com
+[06-09-2024 (14:12)] [31merror[39m: Login failed: User not found for email asifadisirinov99@gmail.com
+[06-09-2024 (14:14)] [31merror[39m: Login failed: User not found for email asifadisirinov99@gmail.com
+[06-09-2024 (14:20)] [31merror[39m: Login failed: User not found for email asifadisirinov99@gmail.com
