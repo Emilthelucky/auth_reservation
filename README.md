@@ -16,34 +16,46 @@ This project is an authentication-based reservation system built using Node.js, 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Emilthelucky/auth_reservation.git
-    cd auth_reservation
+    git clone https://github.com/Emilthelucky/auth_reservation.git cd server
     ```
 
 2. Create an `.env` file and add your variables:
     ```bash
-    NODE_ENV=
     PORT=
     MONGO_URL=
     JWT_SECRET_KEY=
-    REDIS_USERNAME=
+    REDIS_USER=
     REDIS_PASSWORD=
+    REDIS_HOST=
+    REDIS_PORT=
     EMAIL_USER=
-    EMAIL_PASS
+    EMAIL_PASS=
     ```
 
 3. Build and start the application using Docker Compose:
     ```bash
     docker-compose up --build
     ```
+    or in detached mode
+    ```bash
+    docker-compose up --build -d
+    ```
 
-4. Access the application at `http://localhost:5000`.
-5. Docker compose will test the project itself, but you can test the entire project yourself with the comand below:
+4. Access the application at `http://localhost:8080`.
+5. You can test the entire project yourself with the comand below:
     ```bash
     npm run test
     ```
+6. After that you can also run the project with:
+    ```bash
+    npm run dev
+    ```
+    or
+    ```bash
+    npm run start
+    ```
 
-## Docker Setup 🐳
+## `Docker Setup 🐳`
 
 This project includes the following services:
 - **App**: Node.js server running the main application.
@@ -51,12 +63,7 @@ This project includes the following services:
 - **Redis**: Caching server to speed up response times.
 
 ### `docker-compose.yml`
-- The app runs on port `5000`.
-- MongoDB runs on port `27017`.
-- Redis runs on port `6379`.
-
-### Volumes:
-- MongoDB data is persisted using Docker volumes to `mongo-data`.
+- The app runs on port `8080`.
 
 ## Usage 📖
 
@@ -64,6 +71,4 @@ This project includes the following services:
 - Access the API and make reservations or manage users through the authentication system.
 
 ## Environment Variables 🌍
-Make sure to set the following environment variables in your `.env` file:
-- `NODE_ENV`: Set this to `production` for the live environment.
-- `MONGO_URI`: MongoDB connection string.
+Make sure to set the following environment variables in your `.env` file  you can see example env file in .env.example:
