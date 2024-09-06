@@ -3,7 +3,7 @@ import { AuthenticatedRequest } from "../types/index"
 import { VenueModel } from "../models/venue"
 import { APIError } from "../errors/APIError"
 import { ErrorManager as errorHandler } from "../helpers/managers/ErrorManager"
-// import { redisClient } from "../libraries/redis"
+import { redisClient } from "../libraries/redis"
 import logger from "../libraries/logger"
 
 export const CreateVenue = async (req: AuthenticatedRequest, res: Response) => {
@@ -27,7 +27,7 @@ export const CreateVenue = async (req: AuthenticatedRequest, res: Response) => {
             createdBy: req.user?.userId,
         })
 
-        // await redisClient.del("venues")
+        await redisClient.del("venues")
 
         logger.info(`Venue created successfully: ${newVenue._id}`)
         return res.status(201).json({
@@ -55,21 +55,21 @@ export const GetVenues = async (req: Request, res: Response) => {
     }
 
     try {
-        // const cachedVenues = await redisClient.get("venues")
-        // if (cachedVenues) {
-        //     logger.info("Venues fetched successfully from cache")
-        //     return res.status(200).json({
-        //         message: "Venues fetched successfully from cache!",
-        //         venues: JSON.parse(cachedVenues),
-        //     })
-        // }
+        const cachedVenues = await redisClient.get("venues")
+        if (cachedVenues) {
+            logger.info("Venues fetched successfully from cache")
+            return res.status(200).json({
+                message: "Venues fetched successfully from cache!",
+                venues: JSON.parse(cachedVenues),
+            })
+        }
 
         const [venues, total] = await Promise.all([
             VenueModel.find(filters).skip(skip).limit(pageSize),
             VenueModel.countDocuments(filters),
         ])
 
-        // await redisClient.set("venues", JSON.stringify(venues), { EX: 3600 })
+        await redisClient.set("venues", JSON.stringify(venues), { EX: 3600 })
 
         logger.info("Venues fetched successfully from database")
         return res.status(200).json({
@@ -98,16 +98,16 @@ export const GetVenueById = async (req: Request, res: Response) => {
     }
 
     try {
-        // const cachedVenue = await redisClient.get(`venue_${venueId}`)
-        // if (cachedVenue) {
-        //     logger.info(
-        //         `Venue details fetched successfully from cache for ID ${venueId}`
-        //     )
-        //     return res.status(200).json({
-        //         message: "Venue details fetched successfully from cache!",
-        //         venue: JSON.parse(cachedVenue),
-        //     })
-        // }
+        const cachedVenue = await redisClient.get(`venue_${venueId}`)
+        if (cachedVenue) {
+            logger.info(
+                `Venue details fetched successfully from cache for ID ${venueId}`
+            )
+            return res.status(200).json({
+                message: "Venue details fetched successfully from cache!",
+                venue: JSON.parse(cachedVenue),
+            })
+        }
 
         const venue = await VenueModel.findById(venueId)
 
@@ -120,9 +120,9 @@ export const GetVenueById = async (req: Request, res: Response) => {
             )
         }
 
-        // await redisClient.set(`venue_${venueId}`, JSON.stringify(venue), {
-        //     EX: 3600,
-        // })
+        await redisClient.set(`venue_${venueId}`, JSON.stringify(venue), {
+            EX: 3600,
+        })
 
         logger.info(`Venue details fetched successfully for ID ${venueId}`)
         return res.status(200).json({
@@ -164,8 +164,8 @@ export const UpdateVenue = async (req: Request, res: Response) => {
             )
         }
 
-        // await redisClient.del(`venue_${venueId}`)
-        // await redisClient.del("venues")
+        await redisClient.del(`venue_${venueId}`)
+        await redisClient.del("venues")
 
         logger.info(`Venue updated successfully for ID ${venueId}`)
         return res.status(200).json({
@@ -202,8 +202,8 @@ export const DeleteVenue = async (req: Request, res: Response) => {
             )
         }
 
-        // await redisClient.del(`venue_${venueId}`)
-        // await redisClient.del("venues")
+        await redisClient.del(`venue_${venueId}`)
+        await redisClient.del("venues")
 
         logger.info(`Venue deleted successfully for ID ${venueId}`)
         return res.status(200).json({

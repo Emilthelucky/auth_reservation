@@ -4,7 +4,7 @@ import { config } from "dotenv"
 import cors from "cors"
 import mongoose from "mongoose"
 import { router } from "./routes/index"
-// import { ConnectToRedis } from "./libraries/redis"
+import { ConnectToRedis } from "./libraries/redis"
 import { Request, Response } from "express"
 
 config()
@@ -27,7 +27,7 @@ server.listen(PORT, () => {
     console.log(`Server is running on ${PORT}`)
 })
 
-// ConnectToRedis()
+ConnectToRedis()
 
 mongoose.Promise = Promise
 mongoose.connect(MONGO_URL, {
